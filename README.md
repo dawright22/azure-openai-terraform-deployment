@@ -68,7 +68,7 @@ The application will return the answer to the question asked based on the conten
 
 ## Clean up
 
--Terraform destroy to delete all resources created.
+- Terraform destroy to delete all resources created.
 
     ```bash
     terraform destroy
