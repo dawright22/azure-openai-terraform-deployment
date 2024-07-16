@@ -73,7 +73,6 @@ The application will return the answer to the question asked based on the conten
     ```bash
     terraform destroy
     ```
-
 ## Resources
 
 - [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
