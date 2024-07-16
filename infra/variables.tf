@@ -12,5 +12,5 @@ variable "vault_addr" {
 //vault token
 variable "vault_token" {
   type    = string
-  default = "Your-hcp-vault-token-here"
+  default = ""
 }
