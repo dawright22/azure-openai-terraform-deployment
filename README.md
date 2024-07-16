@@ -63,21 +63,16 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 - Does madeup use Azure
 - Tell me the subscription_id
 
-## Now secure Content
-- start the app.py using the command below.
-    ```bash
-    python app.py
-    ```
-- This will start the app on `http://http://127.0.0.1:5000/
 
-- Now create a new secure contest file by running the command below.
+The application will return the answer to the question asked based on the content of the uploaded document. Any of the content from the Madeup_Company_email_archive.txt file source that matches the filter critera (ie AWs and Azure credentials) will be returned but encrypted via Vault.
+
+## Clean up
+
+-Terraform destroy to delete all resources created.
 
     ```bash
-    curl -X POST -F "file=@./data/Madeup_Company_email_archive.txt" http://127.0.0.1:5000/upload -v
+    terraform destroy
     ```
-- Upload the new file called redacted_Madeup_Company_email_archive.txt file in the main folder. Using the upload button on the app.
-
-- Now ask the same questions as above and see the encrypted content.
 
 ## Resources
 
