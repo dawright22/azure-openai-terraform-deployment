@@ -64,7 +64,7 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 - Tell me the subscription_id
 
 
-The application will return the answer to the question asked based on the content of the uploaded document. Any of the content from the Madeup_Company_email_archive.txt file source that matches the filter critera (ie AWs and Azure credentials) will be returned but encrypted via Vault.
+The application will return the answer to the question asked based on the content of the uploaded document. Any of the content from the Madeup_Company_email_archive.txt file source that matches the filter critera (ie AWS and Azure credentials) will be returned but encrypted via Vault.
 
 ## Clean up
 
