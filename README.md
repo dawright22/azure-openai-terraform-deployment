@@ -10,7 +10,9 @@ This sample application deploys an AI-powered document search using Azure OpenAI
 - Subscription access to Azure OpenAI service. Request Access to Azure OpenAI Service [here](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUOFA5Qk1UWDRBMjg0WFhPMkIzTzhKQ1dWNyQlQCN0PWcu).
 - [Terraform](https://learn.microsoft.com/azure/developer/terraform/quickstart-configure).
 
-- Create a HCP vault dedicated instance and configure the endpoint and token in the `infra/variables.tf` file.
+- Create an HCP vault dedicated instance and set up a transit engine following the steps laid out [here](https://developer.hashicorp.com/vault/tutorials/encryption-as-a-service/eaas-transit)   
+  
+- Configure the endpoint and token in the `infra/variables.tf` file.
 
 ## Quickstart
 
